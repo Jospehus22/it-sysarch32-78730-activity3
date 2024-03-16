@@ -1,12 +1,16 @@
 .App {
   text-align: center;
-  margin-top: 50px;
+  background-color: beige;
+  font-family: Tahoma;
+  font-weight: bolder;
+  font-size: larger;
+  padding-top: 40px;
 }
 
 .pokemon {
-  width: 300px;
+  width: 350px;
   background-color: cyan;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
@@ -25,13 +29,16 @@
 }
 
 .language-buttons button {
-  margin: 5px;
-  padding: 5px 10px;
+  margin: 15px;
+  padding: 15px 20px;
   border-radius: 5px;
   cursor: pointer;
   background-color: #007bff;
   color: #fff;
   border: none;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Times New Roman';
 }
 
 .language-buttons button:hover {
@@ -45,7 +52,10 @@
 }
 
 .stats-column {
+  font-family: Arial;
   margin-left: 10px;
+  padding: 15px;
+  font-weight: bold;
 }
 
 .stats-column p {
@@ -57,6 +67,10 @@
   flex-wrap: wrap;
   gap: 5px;
   justify-content: center;
+  gap: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Courier New';
 }
 
 .type {
